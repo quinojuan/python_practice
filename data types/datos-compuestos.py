@@ -14,4 +14,8 @@ print (conjunto)
 
 #creando un diccionario (dict)
 
-diccionario = 
+diccionario = {
+  "clave": "valor"
+}
+
+print (diccionario["clave"])
