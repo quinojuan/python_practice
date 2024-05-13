@@ -10,6 +10,9 @@ diccionario = {
   "sueldo": 150000
 }
 
-diccionario.clear()
+# diccionario.clear()
+# nuevodiccionario = diccionario.pop("sueldo")
 
-print(diccionario)
+
+print("dicc con items", diccionario.items())
+print("dicc solo", diccionario)
