@@ -24,3 +24,13 @@ for num in enumerate(numbers):
   index = num[0]
   value = num[1]
   print(f"the index is: {index} and the value is: {value}")
+  
+# recorriendo un diccionario
+dictionary = {
+  "name": "juan",
+  "lastname": "quino",
+  "age": 40
+}
+
+for key in dictionary.items():
+  print(key)
